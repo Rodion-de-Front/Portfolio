@@ -4,11 +4,11 @@ import Navigation from "./Navigation/Navigation";
 import { useState } from "react";
 
 const navItems = [
-  { label: "Главная", href: "/" },
+  { label: "Главная", href: "#home" },
   { label: "Обучение", href: "#study" },
-  { label: "Отзывы", href: "/#testimonials" },
-  { label: "Проекты", href: "/#projects" },
-  { label: "Контакты", href: "/#contact" },
+  { label: "Отзывы", href: "#testimonials" },
+  { label: "Проекты", href: "#projects" },
+  { label: "Контакты", href: "#contact" },
 ];
 
 export default function Header() {

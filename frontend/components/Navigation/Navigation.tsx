@@ -22,7 +22,7 @@ export default function Navigation({
   console.log(pathname);
 
   return (
-    <>
+    <nav className={styles.nav}>
       {navlinks.map((link) => {
         const isActive = currentLink === link.href;
 
@@ -30,13 +30,13 @@ export default function Navigation({
           <a
             key={link.label}
             href={`${link.href}`}
-            className={isActive ? `${styles.active_item}` : ""}
+            className={isActive ? `${styles.active_item}` : `${styles.item}`}
             onClick={() => handleLol(link.href)}
           >
             {link.label}
           </a>
         );
       })}
-    </>
+    </nav>
   );
 }
