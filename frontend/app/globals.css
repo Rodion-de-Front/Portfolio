@@ -8,6 +8,11 @@
   --foot_header_black: #1b1b1b;
   --grey: #9c9c9c;
   --green: #3f8e00;
+  --lite_green: #62ba1b;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {

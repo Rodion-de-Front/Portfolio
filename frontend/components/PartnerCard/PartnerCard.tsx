@@ -1,0 +1,21 @@
+// import styles from "./PartnerCard.module.css";
+import Image from "next/image";
+
+interface PartnerParams {
+  name: string;
+  logo: string;
+  link: string;
+}
+
+export default function PartnerCard(props: PartnerParams) {
+  return (
+    <a href={props.link}>
+      <Image
+        width={200}
+        height={100}
+        src={props.logo}
+        alt={`Logo of ${props.name}`}
+      ></Image>
+    </a>
+  );
+}
