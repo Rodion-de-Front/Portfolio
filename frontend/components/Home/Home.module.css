@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 0 6.25%;
 }
 
 .introduction {
@@ -41,6 +42,8 @@
   box-sizing: border-box;
   box-shadow: 1px 1px 5px var(--lite_green), -1px 1px 20px var(--lite_green);
   transition: 0.5s;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .start_btn:hover {
@@ -50,8 +53,7 @@
 }
 
 .partners {
-  position: absolute;
-  bottom: 5vh;
+  margin-top: 80px;
 }
 
 .partners h3 {
@@ -62,4 +64,14 @@
   margin-top: 10px;
   display: flex;
   gap: 20px;
+}
+
+.partner_card {
+  width: 160px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  border-radius: 4px;
 }

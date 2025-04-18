@@ -1,14 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --white: #ffffff;
-  --black: #080808;
-  --foot_header_black: #1b1b1b;
+  --total_black: #080808;
+  --black: #1b1b1b;
   --grey: #9c9c9c;
   --green: #3f8e00;
   --lite_green: #62ba1b;
+  --orange: #ffa217;
+  --weak_orange: #fff6e9;
+  --blue: #000aff;
+  --weak_blue: #d0e6ff;
+  --salad: #2ab090;
+  --weak_salad: #e0fff8;
 }
 
 * {
@@ -20,9 +22,22 @@ html {
 }
 
 body {
-  background: var(--black);
+  margin: 0;
+  padding: 0;
+  background: var(--total_black);
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
 header {
@@ -32,10 +47,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 0 6.25%;
-}
-
-main {
-  padding: 0 6.25%;
+  z-index: 10000;
 }
 
 footer {
@@ -44,7 +56,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--foot_header_black);
+  background-color: var(--black);
   color: var(--grey);
   font-size: 16px;
 }

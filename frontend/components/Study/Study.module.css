@@ -1,0 +1,24 @@
+.study {
+  height: 100vh;
+  background-color: var(--white);
+  padding: 80px 6.25%;
+}
+
+.study_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.study_text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.study_text p {
+  width: 570px;
+  text-align: center;
+  line-height: 30px;
+  color: var(--grey);
+}

@@ -5,17 +5,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--foot_header_black);
-  color: var(--grey);
+  background-color: var(--black);
   font-size: 16px;
   border-radius: 0 0 10px 10px;
 }
 
-.active_item {
-  color: var(--white);
+.item {
+  color: var(--grey);
 }
 
 .item:hover {
   color: var(--white);
   transition: 0.5s;
+}
+
+.active_item {
+  color: var(--white);
 }

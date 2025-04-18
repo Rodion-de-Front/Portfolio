@@ -1,4 +1,3 @@
-// import styles from "./PartnerCard.module.css";
 import Image from "next/image";
 
 interface PartnerParams {
@@ -11,8 +10,8 @@ export default function PartnerCard(props: PartnerParams) {
   return (
     <a href={props.link}>
       <Image
-        width={200}
-        height={100}
+        width={100}
+        height={50}
         src={props.logo}
         alt={`Logo of ${props.name}`}
       ></Image>

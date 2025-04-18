@@ -1,0 +1,9 @@
+.study_case {
+  display: flex;
+  align-items: center;
+  width: 892px;
+}
+
+.study_case_text {
+  width: 50%;
+}
